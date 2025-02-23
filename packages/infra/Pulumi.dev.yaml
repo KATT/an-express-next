@@ -1,0 +1,4 @@
+config:
+  aws:region: us-east-1
+  infra:github-repo-access-token:
+    secure: AAABAEmsb9v4NmC7YGwBeVoLt2PeT8JOJhYNOz6MslI8GXgQUrmrouheDUD9sBpiPPIYKdv3F08eo4dJj9xIICX+/3d40hXP05n74tODaPWDb98VrLbCScaIRBSwDHM7vf84Q3T4XxuIAOigzL03UYshirK7enSDTreHny4=

@@ -1,0 +1,41 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "baseUrl": "./src",
+    "rootDir": "./",
+    "outDir": "./dist",
+    "paths": {
+      "@next-trpc-express/shared/*": ["../../shared/src/*"]
+    },
+
+    /* Type Checking */
+    "strict": true /* Enable all strict type-checking options. */,
+
+    /* Completeness */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+    "resolveJsonModule": true,
+    "strictPropertyInitialization": false,
+
+    /* These are new rules we are checking */
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./typings", "./node_modules/@types"],
+    "sourceMap": true,
+    "incremental": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"],
+  "references": [
+    {
+      "path": "../shared"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Ignore build output directories
+dist/
+build/
+.output/
+.vinxi/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore specific files
+*.min.js
+*.bundle.js
+*.tsbuildinfo
+
+# config
+pnpm-lock.yaml

@@ -1,0 +1,5 @@
+config:
+  aws:region: us-east-1
+  project: next-trpc-express
+  environment: dev
+  domain: my-staging-app.example.com

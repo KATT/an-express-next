@@ -1,0 +1,12 @@
+{
+  "name": "@next-trpc-express/shared",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist && cp -r src/prisma dist && tsc --build --force"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

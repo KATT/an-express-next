@@ -1,0 +1,25 @@
+{
+  "name": "next-trpc-express",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter @next-trpc-express/front run build",
+    "clean": "rm -rf packages/*/dist packages/*/.output packages/*/.vinxi packages/shared/src/prisma",
+    "dev": "pnpm -F \"./packages/**\" run dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "pnpm -F \"./packages/**\" run format"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.145",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.11.0",
+    "zod": "^3.23.8"
+  }
+}

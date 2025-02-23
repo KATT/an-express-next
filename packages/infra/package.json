@@ -1,0 +1,13 @@
+{
+    "name": "@next-trpc-express/infra",
+    "main": "index.ts",
+    "devDependencies": {
+        "@pulumi/aws": "^6.68.0",
+        "@pulumi/pulumi": "^3.149.0",
+        "@types/node": "^18",
+        "typescript": "^5.7.3"
+    },
+    "dependencies": {
+        "@pulumi/awsx": "^2.0.2"
+    }
+}

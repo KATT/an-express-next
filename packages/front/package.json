@@ -11,9 +11,9 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.66.0",
-    "@trpc/client": "11.0.0-rc.724",
-    "@trpc/react-query": "11.0.0-rc.724",
+    "@tanstack/react-query": "^5.68.0",
+    "@trpc/client": "11.0.0-rc.833",
+    "@trpc/react-query": "11.0.0-rc.833",
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
